@@ -1,0 +1,407 @@
+<!--
+ * @Author: Jon Barron
+ * @Date: 2019-05-11 22:15:22
+ * @LastEditors: chenjiawei
+ * @LastEditTime: 2022-09-20 12:33:25
+ -->
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+ <html>
+ 
+ <head>
+ 
+   <!-- <meta name=viewport content="width=800"> -->
+   <meta name=viewport content="width=device-width">
+   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+   <style type="text/css">
+     /* Color scheme stolen from Sergey Karayev */
+ 
+     a {
+       color: #1772d0;
+       /* color: #07889b; */
+       text-decoration: none;
+     }
+ 
+     a:focus,
+     a:hover {
+       color: #e37222; /* #f09228; */
+       text-decoration: none;
+     }
+ 
+     body,
+     td,
+     th,
+     tr,
+     p,
+     a {
+       font-family: 'Lato', Verdana, Helvetica, sans-serif;
+       font-size: 16px;
+     }
+ 
+     p.introduction {
+       line-height: 1.8;
+     }
+ 
+     strong {
+       font-family: 'Lato', Verdana, Helvetica, sans-serif;
+       font-size: 16px;
+     }
+ 
+     heading {
+       font-family: 'Lato', Verdana, Helvetica, sans-serif;
+       font-size: 22px;
+       color: #e37222;
+     }
+ 
+     heading2 {
+       font-family: 'Lato', Verdana, Helvetica, sans-serif;
+       font-size: 20px;
+     }
+ 
+     papertitle {
+       font-family: 'Lato', Verdana, Helvetica, sans-serif;
+       font-size: 16px;
+       font-weight: bold;
+     }
+ 
+     name {
+       font-family: 'Lato', Verdana, Helvetica, sans-serif;
+       font-size: 32px;
+     }
+ 
+     .footer {
+       font-family: 'Lato', Verdana, Helvetica, sans-serif;
+       font-size: 14px;
+       opacity: 0.75;
+       color: #777;
+     }
+ 
+     .one {
+       width: 160px;
+       height: 160px;
+       position: relative;
+     }
+ 
+     .two {
+       width: 160px;
+       height: 160px;
+       position: absolute;
+       transition: opacity .2s ease-in-out;
+       -moz-transition: opacity .2s ease-in-out;
+       -webkit-transition: opacity .2s ease-in-out;
+     }
+ 
+     .fade {
+       transition: opacity .2s ease-in-out;
+       -moz-transition: opacity .2s ease-in-out;
+       -webkit-transition: opacity .2s ease-in-out;
+     }
+ 
+     span {
+       line-height: 1.5;
+     }
+ 
+     span.highlight {
+       background-color: #ffffd0;
+     }
+ 
+     span.artifact {
+       color:#6cb41b;
+       padding: 1px;
+     }
+ 
+     span.underline {
+       border-bottom:1px solid black;
+       padding-bottom:1px;
+     }
+ 
+     span.tldr {
+       color: #555555;
+     }
+ 
+     em.highlight {
+       color: #e37222;
+     }
+   </style>
+   <link rel="icon" type="image/png" href="images/icon.jpg">
+   <title>Jiawei Chen</title>
+   <meta name="description" content="I am a Ph.D. Candidate (from 2019.09) in the Chinese Information Processing Laboratory at the Institute of Software, Chinese Academy of Sciences, under the Supervision of Professor Xianpei Han. My research interest is Information Extraction.">
+   <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/academicons.min.css">
+ </head>
+ 
+ <body>
+   <table width="960" border="0" align="center" cellspacing="0" cellpadding="0">
+     <tr>
+       <td>
+         <!-- Intro Begin -->
+         <table width="100%" align="left" border="0" cellspacing="0" cellpadding="12" style="table-layout:fixed;">
+           <colgroup>
+             <col span="1" style="width: 23%;">
+             <col span="1" style="width: 77%;">
+           </colgroup>
+           <tr>
+             <td valign="middle">
+               <img src="images/chenjiawei.jpg" height="170px">
+               <p align=left>
+                 <a href="data/cv.pdf"> <i class="ai ai-cv-square ai-2x"></i> </a> &nbsp;
+                 <a href="https://github.com/chen700564"> <i class="fa fa-github-square fa-2x"></i> </a> &nbsp;
+                 <a href="https://www.semanticscholar.org/author/Jiawei-Chen/2115448879"> <i class="ai ai-semantic-scholar-square ai-2x"></i> </a> &nbsp;
+                 <a href="https://scholar.google.com/citations?user=E3uztpUAAAAJ"> <i class="ai ai-google-scholar-square ai-2x"></i> </a> &nbsp;
+               </p>
+             </td>
+             <td valign="middle">
+               <p align="left">
+                 <name>Jiawei Chen &nbsp; 陈家慰</name>
+               </p>
+               <p class="introduction">
+                I am a Ph.D. Candidate (from 2019.09) in the Chinese Information Processing Laboratory at the Institute of Software, Chinese Academy of Sciences, under the Supervision of Professor Xianpei Han. My research interest is Information Extraction.
+               </p>
+ 
+               <hr style="height:5px; visibility:hidden;" />
+ 
+               <p class="introduction">Contact: jiawei2020@iscas.ac.cn <br></p>
+             </td>
+           </tr>
+         </table>
+         <!-- Intro End -->
+ 
+         <!-- News Begin -->
+         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+           <tr>
+             <td>
+               <heading>News</heading>
+             </td>
+           </tr>
+         </table>
+         <table width="100%" align="center" border="0" cellpadding="10" style="table-layout:fixed;">
+           <colgroup>
+             <col span="1" style="width: 23%;">
+             <col span="1" style="width: 77%;">
+           </colgroup>
+           <tr>
+             <td valign="center"> 02/24/2022 </td>
+             <td valign="center">
+                 Our paper got accepted to <a href="https://www.ieee-security.org/TC/SP2021/SPW2021/dls_website/">ACL 2022</a>.
+             </td>
+           </tr>
+           <!-- <tr>
+             <td valign="center"> 08/01/2020 </td>
+             <td valign="center" style="color:#E9623F">
+                   <strong>I'm actively looking for a security or deep learning internship for 2021 summer!</strong>
+             </td>
+           </tr> -->
+           <!-- <tr>
+             <td valign="center">
+               06/18/2020
+             </td>
+             <td valign="center">
+                   Submitted my first paper to USENIX Security 2021! <br>
+                   Thanks a lot to my advisor and collaborators!
+                   <li><strong>07/2019</strong>: &nbsp; Our VirusTotal reliability paper got accepted to IMC 2019.</li>
+             </td>
+           </tr> -->
+         </table>
+         <!-- News End -->
+ 
+         <!-- Publications Begin -->
+         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+           <tr>
+             <td>
+               <heading>Publications</heading>
+               <hr style="height:2px; visibility:hidden;" />
+               <heading2>Conference Papers</heading2>
+             </td>
+           </tr>
+         </table>
+         <table width="100%" align="center" border="0" cellpadding="12" style="table-layout:fixed;">
+          <!-- <colgroup>
+            <col span="1" style="width: 23%;">
+            <col span="1" style="width: 77%;">
+          </colgroup> -->
+          <td>
+            <subheading>2022</subheading>
+          </td>
+          <tr>
+            <td valign="center">
+                <papertitle>Few-shot Named Entity Recognition with Self-describing Networks</papertitle>
+                <br>
+                <span class="underline">Jiawei Chen</span>, Qing Liu, Hongyu Lin, Xianpei Han, Le Sun
+                <br>
+                <i>Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)</i>
+                <br>
+                <a href="https://aclanthology.org/2022.acl-long.392">Paper</a> /
+                <a href="https://arxiv.org/abs/2203.12258">Preprint</a> / 
+                <a href="https://github.com/chen700564/sdnet">Code</a> /
+                <a href="data/sdnet_slides.pdf">Slides</a> /
+                <a href="data/sdnet_poster.pdf">Poster</a>
+            </td>
+          </tr>
+
+
+          <td>
+            <subheading>2021</subheading>
+          </td>
+
+          <tr>
+            <td valign="center">
+                <papertitle>Honey or Poison? Solving the Trigger Curse in Few-shot Event Detection via Causal Intervention</papertitle>
+                <br>
+                <span class="underline">Jiawei Chen</span>, Hongyu Lin, Xianpei Han, Le Sun
+                <br>
+                <i>Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP 2021)</i>
+                <br>
+                <a href="https://aclanthology.org/2021.emnlp-main.637/">Paper</a> /
+                <a href="https://github.com/chen700564/causalFSED">Code</a> /
+                <a href="data/causalFSED_slides.pdf">Slides</a> /
+                <a href="data/causalFSED_poster.pdf">Poster</a>
+                <!-- <span class="tldr">TL;DR:  </span> -->
+            </td>
+          </tr>
+
+        </table>
+         <!-- Publications End -->
+ 
+         <!-- Education Begin -->
+         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="6">
+           <tr>
+             <td>
+               <heading>Education</heading>
+             </td>
+           </tr>
+         </table>
+         <table width="100%" align="center" border="0" cellpadding="6" style="table-layout:fixed;">
+          <colgroup>
+                <col span="1" style="width: 23%;">
+                <col span="1" style="width: 77%;">
+          </colgroup>
+          <tr>
+            <td valign="center"> 2019-Present </td>
+            <td>
+              Ph.D in Software Engineering (Candidate)
+              <br>
+              <span>School of Computer Science and Technology, University of Chinese Academy of Sciences</span>
+          </td>
+          </tr>
+          <tr>
+            <td valign="center"> 2015-2019 </td>
+            <td>
+              B.S. in Information and Computing Sciences
+              <br>
+              <span>School of Mathematical Science, University of Electronic Science and Technology of China</span>
+          </td>
+          </tr>
+        </table>
+         <!-- Preprints End -->
+ 
+         <!-- Internship Begin -->
+         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="6">
+           <tr>
+             <td>
+               <heading>Internship</heading>
+             </td>
+           </tr>
+         </table>
+         <table width="100%" align="center" border="0" cellpadding="6" style="table-layout:fixed;">
+           <colgroup>
+                 <col span="1" style="width: 23%;">
+                 <col span="1" style="width: 77%;">
+           </colgroup>
+           <tr>
+             <td valign="center">
+               <span>07/2022-Present</span>
+             </td>
+             <td valign="center">
+              Baidu-NLP, Beijing, China, 
+             </td>
+           </tr>
+         </table>
+         <!-- Internship End -->
+
+        <!-- Awards End -->
+ 
+         <!-- Awards Begin -->
+         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="6">
+           <tr>
+             <td>
+               <heading>Awards</heading>
+             </td>
+           </tr>
+         </table>
+         <table width="100%" align="center" border="0" cellpadding="6" style="table-layout:fixed;">
+           <colgroup>
+                 <col span="1" style="width: 23%;">
+                 <col span="1" style="width: 77%;">
+           </colgroup>
+           <tr>
+            <td valign="center"> 2021 </td>
+            <td>
+                <span> Merit Student of University of Chinese Academy of Sciences</span>
+            </td>
+          </tr>
+          
+           <tr>
+            <td valign="center"> 2019 </td>
+            <td>
+                <span> Outstanding undergraduate graduation thesis, UESTC</span>
+            </td>
+          </tr>
+
+           <tr>
+            <td valign="center"> 2019 </td>
+            <td>
+                <span> Outstanding Graduates, UESTC</span>
+            </td>
+          </tr>
+
+           <tr>
+            <td valign="center"> 2018 </td>
+            <td>
+                <span> National Scholarship</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td valign="center"> 2017 </td>
+            <td>
+                <span>First Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)</span>
+            </td>
+          </tr>
+
+           <tr>
+             <td valign="center"> 2016, 2017 </td>
+             <td>
+                 <span> First-class Scholarship, UESTC</span>
+             </td>
+           </tr>
+         </table>
+         <!-- Awards End -->
+
+         <br>
+ 
+         <table width="100%" align="center" border="0" cellpadding="6">
+           <tr>
+             <td width="100%" valign="center">
+               <p class="footer">
+                 Design: <a href="https://jonbarron.info/" target="_blank" style="color: #777; font-size: 14px;">Jon Barron </a> and <a href="https://liminyang.web.illinois.edu/" target="_blank" style="color: #777; font-size: 14px;"></a> Limin Yang</a> <br>
+                 Last updated:
+                 <script>
+                   t = new Date(document.lastModified).toLocaleDateString()
+                   document.write(t);
+                 </script>
+                &nbsp;&nbsp;
+                <span id="busuanzi_container_site_pv">#Visit: <span id="busuanzi_value_site_pv"></span> (2022/9/20~)</span>
+               </p>
+             </td>
+           </tr>
+         </table>
+       </td>
+     </tr>
+   </table>
+ </body>
+ 
+ </html>
+ 
